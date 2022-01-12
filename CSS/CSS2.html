@@ -1,0 +1,72 @@
+<!doctype html>
+ <html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bodies of guitar </title>
+    <style>
+    body{
+        margin:0;
+    }
+    
+     a{
+         color:black;
+       text-decoration: none;
+     }
+     h1{
+       font-size: 40px;
+       text-align: left;
+       border-bottom: 1px black solid;
+       padding: 10px;
+       margin : 0px;
+     }
+     #grid ul{
+        border-right : 1px black solid;
+        width:100px;
+        margin-left:10px;
+        margin-top: 0px;
+        padding:14px;
+     }
+     #grid{
+         display:grid;
+         grid-template-columns: 150px 1fr;
+     }
+      @media(max-width:800px){
+        #grid{
+        display: block;
+        }
+        #grid ul{
+          border-right:none;
+        }
+        h1{
+          border-bottom: none;
+        }
+      }
+   
+    </style>
+  </head>
+  <body>
+    <h1>Guitar Body</h1>
+     <div id="grid">
+        <ul>
+            <li><a href="stratocaster.html" >stratocaster</a></li>
+            <li><a href="les paul.html" >les paul</a></li>
+            <li><a href="hollow body.html">hollow body</a></li>
+        </ul>
+
+     
+      <div id="article">
+          <p>The types of electric guitars are many since it is undoubtedly the most popular instrument. 
+            So many people identify with its sound, a sound that gives a voice to those who want to communicate 
+            through emotion instead of words.</p>
+
+            <p style = "margin-top : 40px;">Two brands are synonymous with this type of instrument: <strong>Gibson and Fender.</strong> 
+            Not only were they the earliest to bring the electric guitar to the masses, but the guitar 
+            body styles and designs they created are still employed today, preferred by budding beginners
+            and working professional musicians alike.</p>
+        
+      
+    </div>
+</div>
+
+  </body>
+</html>
