@@ -7,7 +7,7 @@ public class BinaryTest {
 		int num = 10;
 		int bNum = 0B1010; // 10
 		int oNum = 012;
-		int hNum = 0XA;
+		int hNum = 0XB;
 		
 		System.out.println(num);
 		System.out.println(bNum);
