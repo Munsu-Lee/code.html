@@ -7,7 +7,7 @@ public class StudentTest {                                         // ÇĞ»ı¿¡ ´ëÇ
 		studentJames.setKorea("±¹¾î", 100);
 		studentJames.setMath("¼öÇĞ", 90);
 		
-		Student studentTomas = new Student(101, "Tomas" );         // tomasÀÇ °ú¸ñ Á¡¼ö ¼ÂÆÃ
+		Student studentTomas = new Student(101, "Tomas" );         // TomasÀÇ °ú¸ñ Á¡¼ö ¼ÂÆÃ
 		studentTomas.setKorea("±¹¾î", 90);
 		studentTomas.setMath("¼öÇĞ", 80);
 		
